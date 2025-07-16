@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A237E7A2E27EC10005F64D5 /* AI_telematicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A237E792E27EC10005F64D5 /* AI_telematicsApp.swift */; };
+		6A237E7C2E27EC10005F64D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A237E7B2E27EC10005F64D5 /* ContentView.swift */; };
+		6A237E7E2E27EC16005F64D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A237E7D2E27EC16005F64D5 /* Assets.xcassets */; };
+		6A237E822E27EC16005F64D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A237E812E27EC16005F64D5 /* Preview Assets.xcassets */; };
+		6A237E8C2E27EC17005F64D5 /* AI_telematicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A237E8B2E27EC17005F64D5 /* AI_telematicsTests.swift */; };
+		6A237E962E27EC17005F64D5 /* AI_telematicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A237E952E27EC17005F64D5 /* AI_telematicsUITests.swift */; };
+		6A237E982E27EC17005F64D5 /* AI_telematicsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A237E972E27EC17005F64D5 /* AI_telematicsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A237E882E27EC17005F64D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A237E6E2E27EC10005F64D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A237E752E27EC10005F64D5;
+			remoteInfo = "AI telematics";
+		};
+		6A237E922E27EC17005F64D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A237E6E2E27EC10005F64D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A237E752E27EC10005F64D5;
+			remoteInfo = "AI telematics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A237E762E27EC10005F64D5 /* AI telematics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI telematics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A237E792E27EC10005F64D5 /* AI_telematicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_telematicsApp.swift; sourceTree = "<group>"; };
+		6A237E7B2E27EC10005F64D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A237E7D2E27EC16005F64D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A237E7F2E27EC16005F64D5 /* AI_telematics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AI_telematics.entitlements; sourceTree = "<group>"; };
+		6A237E812E27EC16005F64D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A237E872E27EC17005F64D5 /* AI telematicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI telematicsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A237E8B2E27EC17005F64D5 /* AI_telematicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_telematicsTests.swift; sourceTree = "<group>"; };
+		6A237E912E27EC17005F64D5 /* AI telematicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI telematicsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A237E952E27EC17005F64D5 /* AI_telematicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_telematicsUITests.swift; sourceTree = "<group>"; };
+		6A237E972E27EC17005F64D5 /* AI_telematicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_telematicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A237E732E27EC10005F64D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A237E842E27EC17005F64D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A237E8E2E27EC17005F64D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A237E6D2E27EC10005F64D5 = {
+			isa = PBXGroup;
+			children = (
+				6A237E782E27EC10005F64D5 /* AI telematics */,
+				6A237E8A2E27EC17005F64D5 /* AI telematicsTests */,
+				6A237E942E27EC17005F64D5 /* AI telematicsUITests */,
+				6A237E772E27EC10005F64D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A237E772E27EC10005F64D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A237E762E27EC10005F64D5 /* AI telematics.app */,
+				6A237E872E27EC17005F64D5 /* AI telematicsTests.xctest */,
+				6A237E912E27EC17005F64D5 /* AI telematicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A237E782E27EC10005F64D5 /* AI telematics */ = {
+			isa = PBXGroup;
+			children = (
+				6A237E792E27EC10005F64D5 /* AI_telematicsApp.swift */,
+				6A237E7B2E27EC10005F64D5 /* ContentView.swift */,
+				6A237E7D2E27EC16005F64D5 /* Assets.xcassets */,
+				6A237E7F2E27EC16005F64D5 /* AI_telematics.entitlements */,
+				6A237E802E27EC16005F64D5 /* Preview Content */,
+			);
+			path = "AI telematics";
+			sourceTree = "<group>";
+		};
+		6A237E802E27EC16005F64D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A237E812E27EC16005F64D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A237E8A2E27EC17005F64D5 /* AI telematicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A237E8B2E27EC17005F64D5 /* AI_telematicsTests.swift */,
+			);
+			path = "AI telematicsTests";
+			sourceTree = "<group>";
+		};
+		6A237E942E27EC17005F64D5 /* AI telematicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A237E952E27EC17005F64D5 /* AI_telematicsUITests.swift */,
+				6A237E972E27EC17005F64D5 /* AI_telematicsUITestsLaunchTests.swift */,
+			);
+			path = "AI telematicsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A237E752E27EC10005F64D5 /* AI telematics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A237E9B2E27EC17005F64D5 /* Build configuration list for PBXNativeTarget "AI telematics" */;
+			buildPhases = (
+				6A237E722E27EC10005F64D5 /* Sources */,
+				6A237E732E27EC10005F64D5 /* Frameworks */,
+				6A237E742E27EC10005F64D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI telematics";
+			productName = "AI telematics";
+			productReference = 6A237E762E27EC10005F64D5 /* AI telematics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A237E862E27EC17005F64D5 /* AI telematicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A237E9E2E27EC17005F64D5 /* Build configuration list for PBXNativeTarget "AI telematicsTests" */;
+			buildPhases = (
+				6A237E832E27EC17005F64D5 /* Sources */,
+				6A237E842E27EC17005F64D5 /* Frameworks */,
+				6A237E852E27EC17005F64D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A237E892E27EC17005F64D5 /* PBXTargetDependency */,
+			);
+			name = "AI telematicsTests";
+			productName = "AI telematicsTests";
+			productReference = 6A237E872E27EC17005F64D5 /* AI telematicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A237E902E27EC17005F64D5 /* AI telematicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A237EA12E27EC17005F64D5 /* Build configuration list for PBXNativeTarget "AI telematicsUITests" */;
+			buildPhases = (
+				6A237E8D2E27EC17005F64D5 /* Sources */,
+				6A237E8E2E27EC17005F64D5 /* Frameworks */,
+				6A237E8F2E27EC17005F64D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A237E932E27EC17005F64D5 /* PBXTargetDependency */,
+			);
+			name = "AI telematicsUITests";
+			productName = "AI telematicsUITests";
+			productReference = 6A237E912E27EC17005F64D5 /* AI telematicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A237E6E2E27EC10005F64D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6A237E752E27EC10005F64D5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					6A237E862E27EC17005F64D5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6A237E752E27EC10005F64D5;
+					};
+					6A237E902E27EC17005F64D5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6A237E752E27EC10005F64D5;
+					};
+				};
+			};
+			buildConfigurationList = 6A237E712E27EC10005F64D5 /* Build configuration list for PBXProject "AI telematics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A237E6D2E27EC10005F64D5;
+			productRefGroup = 6A237E772E27EC10005F64D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A237E752E27EC10005F64D5 /* AI telematics */,
+				6A237E862E27EC17005F64D5 /* AI telematicsTests */,
+				6A237E902E27EC17005F64D5 /* AI telematicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A237E742E27EC10005F64D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A237E822E27EC16005F64D5 /* Preview Assets.xcassets in Resources */,
+				6A237E7E2E27EC16005F64D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A237E852E27EC17005F64D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A237E8F2E27EC17005F64D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A237E722E27EC10005F64D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A237E7C2E27EC10005F64D5 /* ContentView.swift in Sources */,
+				6A237E7A2E27EC10005F64D5 /* AI_telematicsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A237E832E27EC17005F64D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A237E8C2E27EC17005F64D5 /* AI_telematicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A237E8D2E27EC17005F64D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A237E962E27EC17005F64D5 /* AI_telematicsUITests.swift in Sources */,
+				6A237E982E27EC17005F64D5 /* AI_telematicsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A237E892E27EC17005F64D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A237E752E27EC10005F64D5 /* AI telematics */;
+			targetProxy = 6A237E882E27EC17005F64D5 /* PBXContainerItemProxy */;
+		};
+		6A237E932E27EC17005F64D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A237E752E27EC10005F64D5 /* AI telematics */;
+			targetProxy = 6A237E922E27EC17005F64D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A237E992E27EC17005F64D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A237E9A2E27EC17005F64D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6A237E9C2E27EC17005F64D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AI telematics/AI_telematics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI telematics/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sher.AI-telematics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A237E9D2E27EC17005F64D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AI telematics/AI_telematics.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI telematics/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sher.AI-telematics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A237E9F2E27EC17005F64D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sher.AI-telematicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI telematics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI telematics";
+			};
+			name = Debug;
+		};
+		6A237EA02E27EC17005F64D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sher.AI-telematicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI telematics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI telematics";
+			};
+			name = Release;
+		};
+		6A237EA22E27EC17005F64D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sher.AI-telematicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI telematics";
+			};
+			name = Debug;
+		};
+		6A237EA32E27EC17005F64D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sher.AI-telematicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI telematics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A237E712E27EC10005F64D5 /* Build configuration list for PBXProject "AI telematics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A237E992E27EC17005F64D5 /* Debug */,
+				6A237E9A2E27EC17005F64D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A237E9B2E27EC17005F64D5 /* Build configuration list for PBXNativeTarget "AI telematics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A237E9C2E27EC17005F64D5 /* Debug */,
+				6A237E9D2E27EC17005F64D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A237E9E2E27EC17005F64D5 /* Build configuration list for PBXNativeTarget "AI telematicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A237E9F2E27EC17005F64D5 /* Debug */,
+				6A237EA02E27EC17005F64D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A237EA12E27EC17005F64D5 /* Build configuration list for PBXNativeTarget "AI telematicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A237EA22E27EC17005F64D5 /* Debug */,
+				6A237EA32E27EC17005F64D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A237E6E2E27EC10005F64D5 /* Project object */;
+}
